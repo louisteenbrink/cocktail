@@ -1,0 +1,24 @@
+{
+  "name": "cocktail",
+  "description": "The admin microservice of cocktail",
+  "website": "http://www.forestadmin.com/lumber",
+  "repository": "https://github.com/ForestAdmin/lumber",
+  "env": {
+    "FOREST_AUTH_KEY": {
+      "description": "A random JWT signing key to protect your admin API",
+      "value": "7780265aeb7c47f9379593742e8755056a8b47b9b28fae998b3ea37e29eff9f89f5ba2ababd5c5ca85a71352cc65ad72"
+    },
+    "FOREST_SECRET_KEY": {
+      "description": "The Forest secret key",
+      "value": "ce4fd255f0997069e5944cb814e3877654f09e167d218306d09057ffadfaf661"
+    },
+    "DATABASE_URL": {
+      "description": "The remote database connection URL",
+      "value": "postgres://<user>:<password>@<host>:<port>/<databaseName>"
+    },
+    "SSL_DATABASE": {
+      "description": "Specify if a SSL database connection is required.",
+      "value": "true"
+    }
+  }
+}
